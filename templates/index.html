@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Ország-Város</title>
+</head>
+
+<body>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    <h1 class="h1">Ország-Város</h1>
+    <div class="button-container">
+        <button class="my-button" id="start-button" onclick="startGame()">Betűt kérek</button>
+    </div>
+    <p id="letter"></p>
+    <p id="countdown"></p>
+    <div id="progress">
+        <div id="progress-bar"></div>
+    </div>
+    <p id="status" style="display: none;"></p> <!-- Initially hidden -->
+
+    <div id="confirmation-buttons" class="confirmation">
+        <div class="button-container">
+            <button class="my-button" onclick="confirmLetter(true)">Jó lesz</button>
+            <button class="my-button" onclick="confirmLetter(false)">Volt már</button>
+        </div>
+    </div>
+</body>
+
+</html>

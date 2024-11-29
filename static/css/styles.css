@@ -1,0 +1,67 @@
+#progress {
+    width: 100%;
+    background-color: #f3f3f3;
+    display: none; /* Hide progress bar initially */
+}
+
+#progress-bar {
+    width: 0;
+    height: 30px;
+    background-color: #4caf50;
+}
+
+.confirmation {
+    display: none; /* Hide confirmation buttons initially */
+}
+
+#letter {
+    font-size: 1.5em; /* Make the letter 1.5 times bigger */
+    font-weight: bold; /* Make the letter bold */
+    font-family: 'Verdana', sans-serif;
+    color: #555555;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+#status {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    align: center; /* Centered button */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 42px;
+    text-shadow: 2px 2px 4px #aaaaaa;
+}
